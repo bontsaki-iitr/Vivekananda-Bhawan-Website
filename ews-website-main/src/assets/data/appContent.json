@@ -1,0 +1,172 @@
+{
+  "hero": {
+    "title": "Welcome to Vivekananda Bhawan",
+    "subtitle": "Building character, friendships and memories at IIT Roorkee.",
+    "imageUrl": "/assets/images/main.jpeg"
+  },
+  "events": [
+    {
+      "title": "Garba Night",
+      "imageUrl": "/public/images/garba-1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Garba Night",
+      "imageUrl": "/public/images/garba-2.jpg"
+    },
+    {
+      "title": "Garba Night",
+      "imageUrl": "/public/images/garba-3.jpg"
+    },
+    {
+      "title": "Bhawan Day",
+      "imageUrl": "/public/images/bhawan-day-1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Bhawan Day",
+      "imageUrl": "/public/images/bhawan-day-2.jpg",
+      "featured": true
+    },
+    {
+      "title": "Bhawan Day",
+      "imageUrl": "/public/images/bhawan-day-3.jpg",
+      "featured": true
+    },
+    {
+      "title": "Lohri Celebration",
+      "imageUrl": "/public/images/events-1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Lohri Celebration",
+      "imageUrl": "/public/images/events-2.jpg"
+    },
+    {
+      "title": "Lohri Celebration",
+      "imageUrl": "/public/images/events-3.jpg"
+    }
+  ],
+  "team": {
+    "wardens": [
+      {
+        "name": "Shubhajit Sadhukhan",
+        "post": "Chief Warden",
+        "imageUrl": "/public/images/cheif-warden.png",
+        "email": "cw.vivekanandabhawan@iitr.ac.in",
+        "number": "+91 97755 49917"
+      },
+      {
+        "name": "Aruni Mahapatra",
+        "post": "Mess Warden",
+        "imageUrl": "/public/images/mess-warden.jpeg",
+        "email": "aruni.mahapatra@hs.iitr.ac.in",
+        "number": "+91 97114 22848"
+      },
+      {
+        "name": "Rajeshwar R. Eleti",
+        "post": "Wellness Warden",
+        "imageUrl": "/public/images/wellness-warden.jpg",
+        "email": "rajeshwar.eleti@mt.iitr.ac.in",
+        "number": "+91 63030 83830"
+      },
+      {
+        "name": "Akshay Kumar Singh",
+        "post": "Assistant Warden",
+        "imageUrl": "/public/images/assistant-warden.jpeg",
+        "email": "ak_singh@ce.iitr.ac.in",
+        "number": "+91 88535 99289"
+      },
+      {
+        "name": "Yogesh Yadav",
+        "post": "Assistant Warden",
+        "imageUrl": "/public/images/assistant-warden-2.jpeg",
+        "email": "yogesh_y@hs.iitr.ac.in",
+        "number": "+91 70800 06996"
+      }
+    ],
+    "staff": [
+      {
+        "name": "Sushil Tyagi",
+        "post": "Supervisor",
+        "imageUrl": "/public/images/supervisor.jpeg",
+        "email": "vivekanandabhawan.office@iitr.ac.in",
+        "number": "+91 73517 12159"
+      },
+      {
+        "name": "Govind Sherwal",
+        "post": "Assistant Supervisor",
+        "imageUrl": "/public/images/assistant-supervisor.jpeg",
+        "email": "vivekanandabhawan.office@iitr.ac.in",
+        "number": "+91 70552 40600"
+      },
+      {
+        "name": "Neeraj",
+        "post": "Office Attendant",
+        "imageUrl": "/public/images/bhawanstafff.jpg",
+        "email": "vivekanandabhawan.office@iitr.ac.in",
+        "number": "+91 98975 53325"
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "Swetank Krishan Sharma",
+        "post": "Bhawan Secretary",
+        "imageUrl": "/public/images/bhawan-secy.jpeg",
+        "email": "swetank_ks@hs.iitr.ac.in",
+        "number": "+91 95481 38829"
+      },
+      {
+        "name": "Mohit Sharma",
+        "post": "Mess Secretary",
+        "imageUrl": "/public/images/mess-secy.jpeg",
+        "email": "mohit_s@ee.iitr.ac.in",
+        "number": "+91 60057 80339"
+      },
+      {
+        "name": "Naman",
+        "post": "Sports Secretary",
+        "imageUrl": "/public/images/sports-secy.jpeg",
+        "email": "naman_k@me.iitr.ac.in",
+        "number": "+91 91310 69944"
+      },
+      {
+        "name": "Rudra Ranipa",
+        "post": "Cultural Secretary",
+        "imageUrl": "/public/images/cult-secy.jpeg",
+        "email": "rudra_dr@me.iitr.ac.in",
+        "number": "+91 77779 56437"
+      },
+      {
+        "name": "Bonthala Venkata Saketh",
+        "post": "Technical Secretary",
+        "imageUrl": "/public/images/tech-secy.jpeg",
+        "email": "venkata_bs@cs.iitr.ac.in",
+        "number": "+91 88868 67143"
+      },
+      {
+        "name": "Anningi Vivek",
+        "post": "Maintenance Secretary",
+        "imageUrl": "/public/images/maintenance-secy.jpeg",
+        "email": "vivek_a@ece.iitr.ac.in",
+        "number": "+91 93988 07731"
+      },
+      {
+        "name": "Bhavik",
+        "post": "Wellness Secretary",
+        "imageUrl": "/public/images/wellness-secy.jpeg",
+        "email": "bhavik1@ece.iitr.ac.in",
+        "number": "+91 92535 88363"
+      }
+    ]
+  },
+  "about": {
+    "content": "Vivekananda Bhawan is a residential hostel at IIT Roorkee, named after Swami Vivekananda. It is home to students from different branches, years and parts of the country, who share meals in the mess, play on the same grounds and celebrate festivals together as one community. Day-to-day life in the Bhawan is managed by the wardens and office staff along with a team of student secretaries, who look after the mess, maintenance, sports, cultural and technical activities, and student wellness. Our aim is simple: to give every resident a clean, safe and friendly place to live, so they can focus on their studies and make the most of their time on campus."
+  },
+  "contact": {
+    "email": "vivekanandabhawan.office@iitr.ac.in",
+    "phone": "+91 73517 12159",
+    "address": "Vivekananda Bhawan, IIT Roorkee, Roorkee, Uttarakhand 247667, India",
+    "mapsUrl": "https://www.google.com/maps?ll=29.8606627,77.8973836&z=17&output=embed"
+  }
+}

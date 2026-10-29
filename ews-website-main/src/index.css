@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* "Gerua" ochre palette (the monk's robe colour) with a marigold accent.
+   Previous maroon brand scale, if ever needed: 600 #8a2c38, 700 #73222d, 800 #5c1c25, 900 #431620, 950 #260a10 */
+@theme {
+  --font-sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+
+  --color-brand-50: #fbf5ef;
+  --color-brand-100: #f5e6d6;
+  --color-brand-200: #ebc9a8;
+  --color-brand-300: #dca676;
+  --color-brand-400: #c9824a;
+  --color-brand-500: #b0652e;
+  --color-brand-600: #9a5322;
+  --color-brand-700: #8a4419;
+  --color-brand-800: #6e3614;
+  --color-brand-900: #552a10;
+  --color-brand-950: #2e1608;
+
+  --color-saffron-300: #f6d690;
+  --color-saffron-400: #efc266;
+  --color-saffron-500: #e9b44c;
+  --color-saffron-600: #8f6312;
+
+  --color-gold-400: #d4b26a;
+  --color-gold-500: #c19a48;
+
+  --color-cream: #fbf7f1;
+}
+
+:root {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1e293b;
+  background-color: #fbf7f1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fbf7f1;
+  color: inherit;
+}
+
+/* In the base layer so Tailwind text-* utilities can override it */
+@layer base {
+  a {
+    color: inherit;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Fade-in when switching pages */
+@keyframes page-fade-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+
+.page-fade {
+  animation: page-fade-in 0.4s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-fade { animation: none; }
+}
